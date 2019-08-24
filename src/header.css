@@ -1,0 +1,35 @@
+.mainHeader {
+    display: flex;
+    height: 35vw;
+}
+ul {
+    list-style-type: none;
+    position: absolute;
+    right: 0;
+}
+ul li {
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: coral;
+    display: inline;
+    margin-right: 1vw;
+}
+.headerImage {
+    position: relative;
+    width: 100%;
+}
+.headerLogo {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+}
+.headerFooter {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightsteelblue;
+}
+.login {
+    border: 5px solid grey;
+    padding: 1px 3px;
+    margin-left: 3vw;
+}

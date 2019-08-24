@@ -1,0 +1,38 @@
+.containerFooter {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightsteelblue;
+}
+.ulFooter {
+    position: relative;
+}
+.liFooter {
+    display: block;
+}
+hr {
+    width: 70%;
+}
+.footerEnd {
+    text-align: center;
+    padding-bottom: 2vw;
+}
+footer {
+    background-color: lightsteelblue;
+}
+#wrapper {
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 2vw;
+    justify-content: center;
+}
+.cardImage {
+    position: relative;
+    width: 17vw;
+    /* flex-basis: 28%; */
+}
+.figure {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: aliceblue;
+}
