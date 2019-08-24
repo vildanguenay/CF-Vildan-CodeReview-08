@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import './sell.css';
 import house from "./house.jpg";
+import ButtonComponent from './ButtonComponent';
+import SellChild1 from './SellChild1';
+import SellChild2 from './SellChild2';
 
 class SellComponent extends Component {
     render() {
@@ -12,12 +15,13 @@ class SellComponent extends Component {
                 <div>
                   <img src={house} width="150px" />
                 </div>
-                <p>{property.name}</p>
-                <p>{property.description}</p>
+                <SellChild1 name={property.name}/>
+                <SellChild2 description={property.description}/>
                 <div className="figure">{property.price}</div>
               </div>
             ))}
           </div>
+          <ButtonComponent/>
         </main>
       );
     }

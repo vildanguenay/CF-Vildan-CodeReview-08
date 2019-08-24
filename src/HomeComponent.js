@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import "./home.css";
+import ButtonComponent from './ButtonComponent';
 import house from "./house.jpg";
 
 class HomeComponent extends Component {
@@ -18,6 +19,7 @@ class HomeComponent extends Component {
             </div>
           ))}
         </div>
+        <ButtonComponent/>
       </main>
     );
   }

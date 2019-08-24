@@ -1,5 +1,8 @@
 import React from 'react';
 import './footer.css';
+import FooterChild1 from './FooterChild1';
+import FooterChild2 from './FooterChild2';
+import FooterChild3 from './FooterChild3';
 // import SocialMediaIcons from 'react-social-media-icons';
 
 function FooterComponent() {
@@ -7,36 +10,11 @@ function FooterComponent() {
         <footer>
             <div className="containerFooter">
                 
-                    <ul className="ulFooter">
-                        <li className="liFooter">About</li>
-                        <li className="liFooter">Support</li>
-                        <li className="liFooter">Terms</li>
-                        <li>Policy</li>
-                        <li className="liFooter">Contact</li>
-                    </ul>
-                              
-                     <ul className="ulFooter">
-                        <li className="liFooter">Appartments</li>
-                        <li className="liFooter">Houses</li>
-                        <li className="liFooter">Villas</li>
-                        <li className="liFooter">Mansions</li>
-                        <li className="liFooter">—</li>
-                    </ul>               
-               
-                    <ul className="ulFooter">
-                        <li className="liFooter">New York</li>
-                        <li className="liFooter">Los Angeles</li>
-                        <li className="liFooter">Miami</li>
-                        <li className="liFooter">Washington</li>
-                        <li className="liFooter">—</li>
-                    </ul> 
+                    <FooterChild1/>
+                    <FooterChild2/>
+                    <FooterChild3/>               
                 
-                
-                    <p>This is text!<br/>
-
-                    </p>
-
-                
+                    <p>This is text!<br/></p>              
             </div>
             <hr/>
             <p className="footerEnd">Copyright © 2019</p>
