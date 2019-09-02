@@ -8,6 +8,7 @@ class HomeComponent extends Component {
     return (
       <main>
         <div id="wrapper">
+          {/* loop through array and then call function for each property */}
           {properties.map(property => (
             <div className="cardImage">
               <div>
